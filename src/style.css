@@ -29,12 +29,17 @@ li:first-letter {
 a {
   text-decoration: none;
 }
+.container {
+  background-image: url("cloud.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .weather-app {
   max-width: 600px;
   margin: 30px auto;
   padding: 20px;
-  border: 1px solid #dadce0;
+  border: 1px solid #b1c3ca;
   border-radius: 5px;
 }
 .weather-app-wrapper {
@@ -76,7 +81,7 @@ a {
   text-align: center;
 }
 .weather-forecast-date {
-  opacity: 0.5;
+  opacity: 0.6;
   font-size: 16px;
   color: black;
 }
@@ -84,5 +89,5 @@ a {
   font-size: 13px;
 }
 .weather-forecast-min {
-  opacity: 0.5;
+  opacity: 0.6;
 }
